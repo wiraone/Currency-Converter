@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "68239E2F-2868-49C9-B663-B22503EE0562"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6CD01E27-81B2-4CE4-8D4C-9325B5323992"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PayPay/Network/APIManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "fetchCurrencyLatestRates(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6CD01E27-81B2-4CE4-8D4C-9325B5323992 - d86f7bc7bd63e804"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PayPay.APIManager.fetchCurrencyLatestRates(completion: (Swift.Result&lt;PayPay.CurrencyRateResponse, PayPay.OpenExchangeError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PayPay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rendy/Documents/PayPay/PayPay/Network/APIManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "1179">
+               </Location>
+               <Location
+                  uuid = "6CD01E27-81B2-4CE4-8D4C-9325B5323992 - fcc138a8241c7f85"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in PayPay.APIManager.fetchCurrencyLatestRates(completion: (Swift.Result&lt;PayPay.CurrencyRateResponse, PayPay.OpenExchangeError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PayPay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rendy/Documents/PayPay/PayPay/Network/APIManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "254">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FE4BFADB-80BB-46D4-A694-69C854A56F7D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PayPay/Module/CurrencyConverter/ViewModel/CurrencyConverterViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "reloadAllCurrencyCollectionView(currencyResults:baseCurrency:inputValue:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1CF6B94B-0F00-4A02-A073-5E6BFD0115E7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PayPayTests/PayPayTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "138"
+            endingLineNumber = "138"
+            landmarkName = "updateCurrencyPickerView(currencyList:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1CF6B94B-0F00-4A02-A073-5E6BFD0115E7 - cf5034aac9fb5efa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PayPayTests.MockCurrencyConverterViewModelOutput.didFinishFetchAPI() -&gt; ()"
+                  moduleName = "PayPayTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rendy/Documents/PayPay/PayPayTests/PayPayTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "1CF6B94B-0F00-4A02-A073-5E6BFD0115E7 - e4e8a8740bcb0d9d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PayPayTests.MockCurrencyConverterViewModelOutput.updateCurrencyPickerView(currencyList: Swift.Array&lt;PayPay.Currency&gt;) -&gt; ()"
+                  moduleName = "PayPayTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rendy/Documents/PayPay/PayPayTests/PayPayTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "1CF6B94B-0F00-4A02-A073-5E6BFD0115E7 - e4e8a8740bcb02e6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PayPayTests.MockCurrencyConverterViewModelOutput.updateCurrencyPickerView(currencyList: Swift.Array&lt;PayPay.Currency&gt;) -&gt; ()"
+                  moduleName = "PayPayTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rendy/Documents/PayPay/PayPayTests/PayPayTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DD70E81C-2A4E-44C0-9691-AFBCC2FE5E78"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PayPayTests/PayPayTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
+            landmarkName = "updateCurrencyCollectionView(currencyConverterResults:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DD70E81C-2A4E-44C0-9691-AFBCC2FE5E78 - e4e8a8740bcb0c19"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PayPayTests.MockCurrencyConverterViewModelOutput.updateCurrencyPickerView(currencyList: Swift.Array&lt;PayPay.Currency&gt;) -&gt; ()"
+                  moduleName = "PayPayTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rendy/Documents/PayPay/PayPayTests/PayPayTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "98"
+                  endingLineNumber = "98"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "DD70E81C-2A4E-44C0-9691-AFBCC2FE5E78 - 9045bc1490f9d013"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PayPayTests.MockCurrencyConverterViewModelOutput.updateCurrencyCollectionView(currencyConverterResults: Swift.Array&lt;PayPay.CurrencyConverterResult&gt;) -&gt; ()"
+                  moduleName = "PayPayTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rendy/Documents/PayPay/PayPayTests/PayPayTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "98"
+                  endingLineNumber = "98"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "DD70E81C-2A4E-44C0-9691-AFBCC2FE5E78 - 9045bc1490f9d168"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PayPayTests.MockCurrencyConverterViewModelOutput.updateCurrencyCollectionView(currencyConverterResults: Swift.Array&lt;PayPay.CurrencyConverterResult&gt;) -&gt; ()"
+                  moduleName = "PayPayTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rendy/Documents/PayPay/PayPayTests/PayPayTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "67516B76-2C34-4383-956C-B49E833F7127"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PayPayTests/PayPayTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "146"
+            endingLineNumber = "146"
+            landmarkName = "updateCurrencyPickerButton(currency:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "67516B76-2C34-4383-956C-B49E833F7127 - 9045bc1490f9d09f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PayPayTests.MockCurrencyConverterViewModelOutput.updateCurrencyCollectionView(currencyConverterResults: Swift.Array&lt;PayPay.CurrencyConverterResult&gt;) -&gt; ()"
+                  moduleName = "PayPayTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rendy/Documents/PayPay/PayPayTests/PayPayTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "67516B76-2C34-4383-956C-B49E833F7127 - 59b35dcca5075d56"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PayPayTests.MockCurrencyConverterViewModelOutput.updateCurrencyPickerButton(currency: Swift.Optional&lt;PayPay.Currency&gt;) -&gt; ()"
+                  moduleName = "PayPayTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rendy/Documents/PayPay/PayPayTests/PayPayTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "67516B76-2C34-4383-956C-B49E833F7127 - 59b35dcca5075c3d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PayPayTests.MockCurrencyConverterViewModelOutput.updateCurrencyPickerButton(currency: Swift.Optional&lt;PayPay.Currency&gt;) -&gt; ()"
+                  moduleName = "PayPayTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rendy/Documents/PayPay/PayPayTests/PayPayTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4BA2821F-CECC-4011-B0A7-9BA8275C14E7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PayPayTests/PayPayTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
+            landmarkName = "fetchCurrencyList(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4BA2821F-CECC-4011-B0A7-9BA8275C14E7 - 3037e66b29a10a6a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PayPayTests.MockOpenExchangeServiceProtocol.init() -&gt; PayPayTests.MockOpenExchangeServiceProtocol"
+                  moduleName = "PayPayTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rendy/Documents/PayPay/PayPayTests/PayPayTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "141">
+               </Location>
+               <Location
+                  uuid = "4BA2821F-CECC-4011-B0A7-9BA8275C14E7 - d3b56c6ae607267"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PayPayTests.MockOpenExchangeServiceProtocol.fetchCurrencyList(completion: (Swift.Result&lt;Swift.Dictionary&lt;Swift.String, Swift.String&gt;, PayPay.OpenExchangeError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PayPayTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rendy/Documents/PayPay/PayPayTests/PayPayTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "4BA2821F-CECC-4011-B0A7-9BA8275C14E7 - d3b56c6ae607267"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PayPayTests.MockOpenExchangeServiceProtocol.fetchCurrencyList(completion: (Swift.Result&lt;Swift.Dictionary&lt;Swift.String, Swift.String&gt;, PayPay.OpenExchangeError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PayPayTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rendy/Documents/PayPay/PayPayTests/PayPayTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "4BA2821F-CECC-4011-B0A7-9BA8275C14E7 - d3b56c6ae60731e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PayPayTests.MockOpenExchangeServiceProtocol.fetchCurrencyList(completion: (Swift.Result&lt;Swift.Dictionary&lt;Swift.String, Swift.String&gt;, PayPay.OpenExchangeError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PayPayTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rendy/Documents/PayPay/PayPayTests/PayPayTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "4BA2821F-CECC-4011-B0A7-9BA8275C14E7 - d3b56c6ae60731e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PayPayTests.MockOpenExchangeServiceProtocol.fetchCurrencyList(completion: (Swift.Result&lt;Swift.Dictionary&lt;Swift.String, Swift.String&gt;, PayPay.OpenExchangeError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PayPayTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rendy/Documents/PayPay/PayPayTests/PayPayTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "136">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A1C30228-C110-4E1F-9822-3318F9CBBA2B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PayPayTests/PayPayTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
+            landmarkName = "fetchCurrencyLatestRates(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A1C30228-C110-4E1F-9822-3318F9CBBA2B - d3b56c6ae6072ad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PayPayTests.MockOpenExchangeServiceProtocol.fetchCurrencyList(completion: (Swift.Result&lt;Swift.Dictionary&lt;Swift.String, Swift.String&gt;, PayPay.OpenExchangeError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PayPayTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rendy/Documents/PayPay/PayPayTests/PayPayTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "186">
+               </Location>
+               <Location
+                  uuid = "A1C30228-C110-4E1F-9822-3318F9CBBA2B - f3c910c2851c1453"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PayPayTests.MockOpenExchangeServiceProtocol.fetchCurrencyLatestRates(completion: (Swift.Result&lt;PayPay.CurrencyRateResponse, PayPay.OpenExchangeError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PayPayTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rendy/Documents/PayPay/PayPayTests/PayPayTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "A1C30228-C110-4E1F-9822-3318F9CBBA2B - f3c910c2851c1453"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PayPayTests.MockOpenExchangeServiceProtocol.fetchCurrencyLatestRates(completion: (Swift.Result&lt;PayPay.CurrencyRateResponse, PayPay.OpenExchangeError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PayPayTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rendy/Documents/PayPay/PayPayTests/PayPayTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "139">
+               </Location>
+               <Location
+                  uuid = "A1C30228-C110-4E1F-9822-3318F9CBBA2B - f3c910c2851c14ba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PayPayTests.MockOpenExchangeServiceProtocol.fetchCurrencyLatestRates(completion: (Swift.Result&lt;PayPay.CurrencyRateResponse, PayPay.OpenExchangeError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PayPayTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rendy/Documents/PayPay/PayPayTests/PayPayTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "A1C30228-C110-4E1F-9822-3318F9CBBA2B - f3c910c2851c14ba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PayPayTests.MockOpenExchangeServiceProtocol.fetchCurrencyLatestRates(completion: (Swift.Result&lt;PayPay.CurrencyRateResponse, PayPay.OpenExchangeError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PayPayTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rendy/Documents/PayPay/PayPayTests/PayPayTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "139">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AED1BA2D-0CAE-47DD-9D33-B2CEA735E759"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PayPayTests/PayPayTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "tearDownWithError()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AED1BA2D-0CAE-47DD-9D33-B2CEA735E759 - 57d322e7f1e7683d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PayPayTests.PayPayTests.tearDownWithError() throws -&gt; ()"
+                  moduleName = "PayPayTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rendy/Documents/PayPay/PayPayTests/PayPayTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "59">
+               </Location>
+               <Location
+                  uuid = "AED1BA2D-0CAE-47DD-9D33-B2CEA735E759 - 57d322e7f1e7683d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PayPayTests.PayPayTests.tearDownWithError() throws -&gt; ()"
+                  moduleName = "PayPayTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rendy/Documents/PayPay/PayPayTests/PayPayTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "38">
+               </Location>
+               <Location
+                  uuid = "AED1BA2D-0CAE-47DD-9D33-B2CEA735E759 - 57d322e7f1e76863"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PayPayTests.PayPayTests.tearDownWithError() throws -&gt; ()"
+                  moduleName = "PayPayTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rendy/Documents/PayPay/PayPayTests/PayPayTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "AED1BA2D-0CAE-47DD-9D33-B2CEA735E759 - 57d322e7f1e76863"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PayPayTests.PayPayTests.tearDownWithError() throws -&gt; ()"
+                  moduleName = "PayPayTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rendy/Documents/PayPay/PayPayTests/PayPayTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "46">
+               </Location>
+               <Location
+                  uuid = "AED1BA2D-0CAE-47DD-9D33-B2CEA735E759 - 57d322e7f1e76863"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PayPayTests.PayPayTests.tearDownWithError() throws -&gt; ()"
+                  moduleName = "PayPayTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rendy/Documents/PayPay/PayPayTests/PayPayTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "34">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E839CE93-3E37-4E8E-97EC-031EEE60F8D1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PayPayTests/PayPayTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "setUpWithError()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E839CE93-3E37-4E8E-97EC-031EEE60F8D1 - e7b3583df775015e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PayPayTests.PayPayTests.setUpWithError() throws -&gt; ()"
+                  moduleName = "PayPayTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rendy/Documents/PayPay/PayPayTests/PayPayTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "62">
+               </Location>
+               <Location
+                  uuid = "E839CE93-3E37-4E8E-97EC-031EEE60F8D1 - e7b3583df775015e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PayPayTests.PayPayTests.setUpWithError() throws -&gt; ()"
+                  moduleName = "PayPayTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rendy/Documents/PayPay/PayPayTests/PayPayTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "41">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FCBC1B2E-E0C2-4F15-BA36-8D88919B4A6A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PayPayTests/PayPayTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "testUpdateCurrencyPickerViewWhenFetchCurrencyListSuccess()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FCBC1B2E-E0C2-4F15-BA36-8D88919B4A6A - 5da4c682e43c5a7b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PayPayTests.PayPayTests.testUpdatePickerViewWhenFetchCurrencyListSuccess() -&gt; ()"
+                  moduleName = "PayPayTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rendy/Documents/PayPay/PayPayTests/PayPayTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "53">
+               </Location>
+               <Location
+                  uuid = "FCBC1B2E-E0C2-4F15-BA36-8D88919B4A6A - 5da4c682e43c5b98"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PayPayTests.PayPayTests.testUpdatePickerViewWhenFetchCurrencyListSuccess() -&gt; ()"
+                  moduleName = "PayPayTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rendy/Documents/PayPay/PayPayTests/PayPayTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "53">
+               </Location>
+               <Location
+                  uuid = "FCBC1B2E-E0C2-4F15-BA36-8D88919B4A6A - 5da4c682e43c5a7b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PayPayTests.PayPayTests.testUpdatePickerViewWhenFetchCurrencyListSuccess() -&gt; ()"
+                  moduleName = "PayPayTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rendy/Documents/PayPay/PayPayTests/PayPayTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4EDF2851-F7E1-4B47-91A6-2D0C25DAE663"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PayPayTests/PayPayTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "testUpdateCurrencyPickerViewWhenFetchCurrencyListFailure()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4EDF2851-F7E1-4B47-91A6-2D0C25DAE663 - 1f8bca2fab5641fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PayPayTests.PayPayTests.testUpdatePickerViewWhenFetchCurrencyListFailure() -&gt; ()"
+                  moduleName = "PayPayTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rendy/Documents/PayPay/PayPayTests/PayPayTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "37">
+               </Location>
+               <Location
+                  uuid = "4EDF2851-F7E1-4B47-91A6-2D0C25DAE663 - 1f8bca2fab56411c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PayPayTests.PayPayTests.testUpdatePickerViewWhenFetchCurrencyListFailure() -&gt; ()"
+                  moduleName = "PayPayTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rendy/Documents/PayPay/PayPayTests/PayPayTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "37">
+               </Location>
+               <Location
+                  uuid = "4EDF2851-F7E1-4B47-91A6-2D0C25DAE663 - 1f8bca2fab5641fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PayPayTests.PayPayTests.testUpdatePickerViewWhenFetchCurrencyListFailure() -&gt; ()"
+                  moduleName = "PayPayTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rendy/Documents/PayPay/PayPayTests/PayPayTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "09C7E227-5686-4701-8246-2556F3E71D71"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PayPayTests/PayPayTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "MockOpenExchangeServiceProtocol"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5FB7F4FB-8530-483A-984D-588C555C29C8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PayPay/Module/CurrencyConverter/ViewModel/CurrencyConverterViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "fetchCurrencyLatesRates()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

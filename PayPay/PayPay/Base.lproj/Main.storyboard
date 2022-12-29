@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Converter View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ConverterViewController" customModule="PayPay" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="1" borderStyle="roundedRect" placeholder="Please input currency value" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="0Fi-qp-tW2">
+                                <rect key="frame" x="15" y="99" width="363" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="IFg-4a-1HI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h7b-mt-HrQ">
+                                <rect key="frame" x="221" y="148" width="157" height="50"/>
+                                <color key="backgroundColor" name="PinkRedColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="157" id="FyX-WE-egP"/>
+                                    <constraint firstAttribute="height" constant="50" id="HqW-7D-We6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="12"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Choose Currency">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapCurrencyPickerButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I0z-IV-dae"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="..." textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MVb-00-ClA">
+                                <rect key="frame" x="15" y="148" width="150" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="6ET-uG-CMf"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="Fk3-N8-3Js"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5qn-fJ-Szp">
+                                <rect key="frame" x="15" y="213" width="363" height="590"/>
+                                <connections>
+                                    <segue destination="OaH-UZ-yFb" kind="embed" identifier="toCurrenciesCollectionViewController" id="KJG-F7-ChV"/>
+                                </connections>
+                            </containerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Currency Converter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ySD-CO-NaM">
+                                <rect key="frame" x="120" y="59" width="153" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="153" id="XPg-bF-JYN"/>
+                                    <constraint firstAttribute="height" constant="24" id="kYa-PY-TRp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uUk-MO-9Pr">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <subviews>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="0as-ag-9rm">
+                                        <rect key="frame" x="186.66666666666666" y="416" width="20" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="20" id="Cip-ZN-ff7"/>
+                                            <constraint firstAttribute="height" constant="20" id="szx-sz-zDe"/>
+                                        </constraints>
+                                    </activityIndicatorView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fetching data from API ..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mcv-5e-H6X">
+                                        <rect key="frame" x="10" y="446" width="373" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="Njz-8v-Rjh"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="mcv-5e-H6X" firstAttribute="top" secondItem="0as-ag-9rm" secondAttribute="bottom" constant="10" id="2is-Sb-usM"/>
+                                    <constraint firstItem="0as-ag-9rm" firstAttribute="centerX" secondItem="uUk-MO-9Pr" secondAttribute="centerX" id="3eU-36-WdF"/>
+                                    <constraint firstItem="mcv-5e-H6X" firstAttribute="leading" secondItem="uUk-MO-9Pr" secondAttribute="leading" constant="10" id="L9d-Xo-mie"/>
+                                    <constraint firstAttribute="trailing" secondItem="mcv-5e-H6X" secondAttribute="trailing" constant="10" id="il4-Op-thM"/>
+                                    <constraint firstItem="0as-ag-9rm" firstAttribute="centerY" secondItem="uUk-MO-9Pr" secondAttribute="centerY" id="zur-OY-eFL"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="0Fi-qp-tW2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="02C-t3-2DH"/>
+                            <constraint firstItem="h7b-mt-HrQ" firstAttribute="top" secondItem="0Fi-qp-tW2" secondAttribute="bottom" constant="15" id="6kr-wH-mjq"/>
+                            <constraint firstItem="0Fi-qp-tW2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="9tH-b3-BtE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0Fi-qp-tW2" secondAttribute="trailing" constant="15" id="E0I-eJ-kJc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5qn-fJ-Szp" secondAttribute="trailing" constant="15" id="GQI-1K-Mn1"/>
+                            <constraint firstItem="MVb-00-ClA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="TB5-S5-qRk"/>
+                            <constraint firstItem="uUk-MO-9Pr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Xea-Bp-OkN"/>
+                            <constraint firstItem="5qn-fJ-Szp" firstAttribute="top" secondItem="h7b-mt-HrQ" secondAttribute="bottom" constant="15" id="aGS-SC-nZt"/>
+                            <constraint firstItem="ySD-CO-NaM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bXV-Te-6wL"/>
+                            <constraint firstItem="uUk-MO-9Pr" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="dpo-Uw-TSI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uUk-MO-9Pr" secondAttribute="trailing" id="fSr-ce-KCT"/>
+                            <constraint firstItem="ySD-CO-NaM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="llo-qP-A0d"/>
+                            <constraint firstAttribute="bottom" secondItem="uUk-MO-9Pr" secondAttribute="bottom" id="mlx-Zm-w8d"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="5qn-fJ-Szp" secondAttribute="bottom" constant="15" id="n6r-v0-csA"/>
+                            <constraint firstItem="MVb-00-ClA" firstAttribute="top" secondItem="0Fi-qp-tW2" secondAttribute="bottom" constant="15" id="ovQ-Lp-7ui"/>
+                            <constraint firstItem="5qn-fJ-Szp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="pHa-O2-5Uz"/>
+                            <constraint firstAttribute="trailing" secondItem="h7b-mt-HrQ" secondAttribute="trailing" constant="15" id="uqs-DH-o6F"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="curencyPickerButton" destination="h7b-mt-HrQ" id="vtK-fg-w6K"/>
+                        <outlet property="curencyTextfield" destination="0Fi-qp-tW2" id="ouX-oI-ogg"/>
+                        <outlet property="lastUpdateLabel" destination="MVb-00-ClA" id="HBE-iz-wqX"/>
+                        <outlet property="loadingIndicatorView" destination="uUk-MO-9Pr" id="GgT-xI-0Qz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="54.198473282442748" y="-34.507042253521128"/>
+        </scene>
+        <!--Currencies Collection View Controller-->
+        <scene sceneID="5Km-1i-zYJ">
+            <objects>
+                <collectionViewController id="OaH-UZ-yFb" customClass="CurrenciesCollectionViewController" customModule="PayPay" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="Cmo-S7-OEC">
+                        <rect key="frame" x="0.0" y="0.0" width="363" height="590"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Nil-FP-qjh">
+                            <size key="itemSize" width="128" height="128"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="currencyCell" id="H1H-CW-yus" customClass="CurrencyCollectionViewCell" customModule="PayPay" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="tPw-Th-n16">
+                                    <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1" verticalHuggingPriority="1" text="..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Hs-TA-AyW">
+                                            <rect key="frame" x="57.666666666666664" y="96" width="12.666666666666664" height="22"/>
+                                            <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="16"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="..." textAlignment="center" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="20u-1m-wmB">
+                                            <rect key="frame" x="57.666666666666664" y="53" width="12.666666666666664" height="22"/>
+                                            <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="16"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="6Hs-TA-AyW" secondAttribute="bottom" constant="10" id="HXd-SH-n7V"/>
+                                        <constraint firstItem="6Hs-TA-AyW" firstAttribute="centerX" secondItem="tPw-Th-n16" secondAttribute="centerX" id="IiL-kn-e9T"/>
+                                        <constraint firstItem="20u-1m-wmB" firstAttribute="centerX" secondItem="tPw-Th-n16" secondAttribute="centerX" id="Y4x-Ep-JUZ"/>
+                                        <constraint firstItem="20u-1m-wmB" firstAttribute="centerY" secondItem="tPw-Th-n16" secondAttribute="centerY" id="jfo-wL-wT2"/>
+                                    </constraints>
+                                </collectionViewCellContentView>
+                                <connections>
+                                    <outlet property="currrencyCodeLabel" destination="6Hs-TA-AyW" id="beR-KR-mnf"/>
+                                    <outlet property="currrencyValueLabel" destination="20u-1m-wmB" id="c78-NN-lrG"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="OaH-UZ-yFb" id="Y5F-KI-qO1"/>
+                            <outlet property="delegate" destination="OaH-UZ-yFb" id="ifE-AI-Wtd"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AAc-RN-IQS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1093.8931297709923" y="-34.154929577464792"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="PinkRedColor">
+            <color red="1" green="0.0" blue="0.15686274509803921" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
